@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <main>
+      <div id="gameContainer">
+        <div id="playingField">
+          <div id="sq1" class="boardBox" data-x="0" data-y="0"></div>
+          <div id="sq2" class="boardBox" data-x="1" data-y="0"></div>
+          <div id="sq3" class="boardBox" data-x="2" data-y="0"></div>
+          <div id="sq4" class="boardBox" data-x="0" data-y="1"></div>
+          <div id="sq5" class="boardBox" data-x="1" data-y="1"></div>
+          <div id="sq6" class="boardBox" data-x="2" data-y="1"></div>
+          <div id="sq7" class="boardBox" data-x="0" data-y="2"></div>
+          <div id="sq8" class="boardBox" data-x="1" data-y="2"></div>
+          <div id="sq9" class="boardBox" data-x="2" data-y="2"></div>
+        </div>
+      </div>
+      <div id="gameStatus">
+        <h2 id="statusDiv">
+          It's turn for Player <span id="playerIndex">1</span>
+        </h2>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
