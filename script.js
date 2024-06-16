@@ -36,7 +36,7 @@ function selectSpot(e) {
     }
   }
 
-  if (totalSpotsLeft <= 0 || checkIfPlayerWon()) {
+  if (checkIfPlayerWon() || totalSpotsLeft <= 0) {
     gameFinishBoolean = true;
   }
 
